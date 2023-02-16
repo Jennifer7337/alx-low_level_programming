@@ -1,11 +1,13 @@
-#include <stdio.h>
+include <stdio.h>
+
 /**
-*main - Entry point
-*Return: Always 0 (Success)
-*/
+ * main - This prints Hello Precious
+ * Return: This returns 0
+ */
 
 int main(void)
 {
-	puts("\"Programming is like buliding a multilingual puzzle");
-	        return (0);
+	printf("Hello Precious\n"); /* Inlint Comment*/
+       printf("Hello to you too");	
+	return (0);
 }
